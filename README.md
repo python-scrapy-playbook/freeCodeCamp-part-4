@@ -32,3 +32,15 @@ Once the required python modules are installed you should be able to view/run th
 View the project spiders: `scrapy list`
 
 Run the project spider: `scrapy crawl books`
+
+
+
+# Helpful Dubugging 
+If you have issues running the `pip install -r requirements.txt` command this can be due to some things not being up to date on your computer. 
+
+Running the following may solve some of these issues:
+
+`pip install --upgrade pip`
+
+The following error: `NotADirectoryError: [Errno 20] Not a directory: 'pkg-config'` might be solvable by running:
+`export PKG_CONFIG=/path/to/pkg-config`

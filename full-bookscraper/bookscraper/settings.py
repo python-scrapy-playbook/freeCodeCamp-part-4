@@ -62,9 +62,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'bookscraper.pipelines.BookscraperPipeline': 300,
-}
+# ITEM_PIPELINES = {
+#    'bookscraper.pipelines.BookscraperPipeline': 300,
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -93,6 +93,6 @@ PROXY_PASSWORD = 'password'
 PROXY_ENDPOINT = 'proxy.proxyprovider.com'
 PROXY_PORT = '8000'
 
-DOWNLOADER_MIDDLEWARES = { 
-    'myproject.middlewares.MyProxyMiddleware': 350, 
-}
+# DOWNLOADER_MIDDLEWARES = { 
+#     'myproject.middlewares.MyProxyMiddleware': 350, 
+# }

@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 # pipelines.py
 
-import psycopg2
+# import psycopg2
 
 class PostgresDemoPipeline:
 
